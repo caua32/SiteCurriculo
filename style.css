@@ -1,0 +1,305 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-color: #C8A2C8;      
+    
+}
+
+footer{
+    background-color:#6A0DAD;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+p{
+    font-size: large;
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+.PrimeiroTexto h3 {
+    color: wheat;
+    font-size: 25px;
+}
+
+.SegundoTexto h3{
+    color: wheat;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.TerceiroTexto h3{
+    color: wheat;
+    font-size: 25px;
+    
+}
+
+.TopodaPagina{
+    
+    background-color: #6A0DAD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: wheat;
+    padding: 0 20px;
+
+}
+
+.icones-esq {
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1; 
+    gap: 200px;
+}
+
+.icones-esq a {
+    
+    color: wheat;
+}
+
+.InformacoesDaDireitaDaFoto{
+    
+    display: flex;
+    justify-content: center;
+      
+}
+
+.PerfilHeader{
+    
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.PortifolioHeader{
+    
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.DadosPessoais{
+   
+    margin-right: 95px;
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    
+}
+
+.TextoDadosPessoais h1 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+.TextoDadosPessoais h2{
+    margin: 0px;
+}
+
+.TextoDadosPessoais p{
+    margin-top: 40px;
+}
+
+
+.LocalizacaoDP{
+    
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+        
+}
+
+.LocalizacaoDP p{
+    font-size: 21px;
+}
+
+.ContatoDP{
+   
+    display: flex;
+    align-items: center;
+    
+}
+
+.ContatoDP img{ 
+    margin-left: 80px;
+}
+
+.ContatoDP p{   
+    font-size: 21px;
+}
+
+
+.SobreMim{
+   
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+}
+
+.PrimeiroTexto{
+    max-width: 530px;
+    height: auto;
+    background-color: #6A0DAD;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    padding: 8px;
+    justify-items: center;
+    margin: 15px;
+
+}
+
+.PrimeiroTexto ul{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.IconesConexoes h3{
+    
+    font-size: 25px;
+}
+
+
+.SegundoTexto{
+    position: relative; 
+    max-width: 530px;
+    height: 460px;
+    background-color:#6A0DAD;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    padding: 15px;
+    justify-items: center;
+    margin: 10px;
+}
+
+.TextoConexoes{  
+    justify-items: center;   
+}
+
+
+.TerceiroTexto{
+    max-width: 530px;
+    height: 460px;
+    background-color: #6A0DAD;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    padding: 15px;
+    justify-items: center;
+    margin: 10px;
+}
+
+.ImagensTerceiroTexto{
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.icone-senai{
+    margin-bottom: 50px;
+}
+
+.ListaHabilidades{
+    margin-top: 25px;
+}                  
+
+
+.LinhaRodape{
+    
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+    
+}
+
+.ImagemRodape{
+    
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+.TextosRodape p{
+    margin: 0px;
+}
+
+
+.TextosRodape h3{
+    
+    font-size: 40px;
+    color: wheat;
+    margin: 0px;
+    margin-top: 20px;
+
+}
+
+ .DadosRodapes{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+    margin-top: 35px;
+
+ }
+
+.Telefone, .Gmail {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block; 
+ 
+  
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden; 
+  width: 220px; 
+  background-color: #6A0DAD;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1; 
+  top: 125%; 
+  right: 0;
+  opacity: 0; 
+  transition: opacity 0.3s; 
+  margin:20px ;
+  
+}
+
+.tooltip .tooltip-text h2{
+    color: wheat;
+}
+
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip img{
+    margin-top: 8px;
+}
+
+
